@@ -1,0 +1,5 @@
+<aura:component implements="force:lightningQuickAction,force:hasRecordId" controller="QentinelRun" >
+    <aura:attribute name="recordId" type="Id" />
+    <lightning:button class="slds-align_absolute-center" label="Run Job" onclick="{!c.myAction}"/>
+
+</aura:component>
