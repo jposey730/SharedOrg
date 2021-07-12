@@ -1,3 +1,13 @@
+/**
+ * @description       : 
+ * @author            : ChangeMeIn@UserSettingsUnder.SFDoc
+ * @group             : 
+ * @last modified on  : 07-09-2021
+ * @last modified by  : ChangeMeIn@UserSettingsUnder.SFDoc
+ * Modifications Log 
+ * Ver   Date         Author                               Modification
+ * 1.0   07-09-2021   ChangeMeIn@UserSettingsUnder.SFDoc   Initial Version
+**/
 public class QentinelRun {
     
     @AuraEnabled
@@ -14,7 +24,7 @@ public class QentinelRun {
             qApi = usOne.Qentinel_Suite_API_Key__c;
         }
         //Create API Request
-        System.debug('qApi = ' + qApi);
+        System.debug('qApi test = ' + qApi);
         String sfdcURL = 'https://pace.qentinel.com/pace/v4/builds'; 
         HttpRequest httpRequest = new HttpRequest();  
         httpRequest.setMethod('POST');   
